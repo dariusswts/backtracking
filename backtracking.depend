@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1791297906 source:c:\mycode\backtracking\main.cpp
+	"permutari.h"
+
+1791298189 c:\mycode\backtracking\permutari.h
+	<iostream>
+

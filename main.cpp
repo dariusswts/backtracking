@@ -1,9 +1,7 @@
-#include <iostream>
-
-using namespace std;
+#include "permutari.h"
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    solutie();
     return 0;
 }
