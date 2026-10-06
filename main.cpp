@@ -1,9 +1,10 @@
 #include <iostream>
+#include "permutari.h"
 
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    permutari();
     return 0;
 }
