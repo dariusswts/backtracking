@@ -24,7 +24,7 @@ void afisare()
 }
 
 void back(int k){
-    for(int v=1;v<n;v++){
+    for(int v=2;v<=n;v++){
         x[k]=v;
         if(valid(k)){
             if(k==n-1){

@@ -1,5 +1,5 @@
 
-#include "permutari-8.h"
+#include "permutari_2.h"
 
 
 
@@ -7,6 +7,6 @@
 int main()
 {
 
-    permutari8();
+    permutari2();
     return 0;
 }

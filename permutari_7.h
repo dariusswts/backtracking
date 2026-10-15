@@ -11,6 +11,13 @@ bool valid(int k)
             return false;
         }
     }
+
+    if(x[k]==1||x[k]==n){
+        for(int i=1;i<k;i++){
+            if(x[k]==1&&)
+        }
+    }
+
     return true;
 }
 
