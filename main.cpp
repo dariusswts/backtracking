@@ -1,10 +1,12 @@
-#include <iostream>
-#include "permutari.h"
 
-using namespace std;
+#include "permutari-6.h"
+
+
+
 
 int main()
 {
-    permutari();
+   // permutari1();
+    permutari2();
     return 0;
 }

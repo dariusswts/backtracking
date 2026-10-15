@@ -33,6 +33,13 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="permutari-1.h" />
+		<Unit filename="permutari-2.h" />
+		<Unit filename="permutari-3.h" />
+		<Unit filename="permutari-4.h" />
+		<Unit filename="permutari-5.h" />
+		<Unit filename="permutari-6.h" />
+		<Unit filename="permutari-7.h" />
 		<Unit filename="permutari.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
