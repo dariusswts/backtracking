@@ -1,12 +1,12 @@
 
-#include "permutari-6.h"
+#include "permutari-8.h"
 
 
 
 
 int main()
 {
-   // permutari1();
-    permutari2();
+
+    permutari8();
     return 0;
 }
