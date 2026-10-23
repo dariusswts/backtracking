@@ -32,15 +32,25 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="combinari.h" />
+		<Unit filename="combinari_1.h" />
+		<Unit filename="combinari_2.h" />
+		<Unit filename="combinari_3.h" />
+		<Unit filename="combinari_4.h" />
+		<Unit filename="combinari_5.h" />
+		<Unit filename="combinari_6.h" />
+		<Unit filename="combinari_7.h" />
+		<Unit filename="combinari_8.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="permutari-1.h" />
-		<Unit filename="permutari-2.h" />
-		<Unit filename="permutari-3.h" />
-		<Unit filename="permutari-4.h" />
-		<Unit filename="permutari-5.h" />
-		<Unit filename="permutari-6.h" />
-		<Unit filename="permutari-7.h" />
 		<Unit filename="permutari.h" />
+		<Unit filename="permutari_1.h" />
+		<Unit filename="permutari_2.h" />
+		<Unit filename="permutari_3.h" />
+		<Unit filename="permutari_4.h" />
+		<Unit filename="permutari_5.h" />
+		<Unit filename="permutari_6.h" />
+		<Unit filename="permutari_7.h" />
+		<Unit filename="permutari_8.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
