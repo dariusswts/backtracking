@@ -7,6 +7,9 @@ using namespace std;
 
 int n, x[20];
 int p;
+int m[100][100]{};
+int l=0;
+
 
 bool validCombinari(int k)
 {
@@ -16,15 +19,26 @@ bool validCombinari(int k)
     return true;
 }
 
-
-
 void afisareCombinari()
 {
     for(int i=1;i<=p;i++){
         cout<<x[i]<<" ";
+         m[l][i]=x[i];
     }
+    l++;
     cout<<endl;
 }
+
+void afisareMatirici(){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            cout<<m[i][j]<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+
 
 void backCombinari(int k)
 {
@@ -43,7 +57,7 @@ void backCombinari(int k)
 
 void combinari()
 {
- n=3;
+   n=3;
    for( p=1;p<=n;p++){
         backCombinari(1);
    }
