@@ -27,7 +27,7 @@ void afisareCombinari()
 {
     for(int i = 1; i <= p; i++)
     {
-        cout << x[i];
+        cout << x[i]<<" ";
     }
     cout << endl;
 }

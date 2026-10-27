@@ -1,5 +1,5 @@
 
-#include "combinari_6.h"
+#include "combinari_7.h"
 
 
 
@@ -7,6 +7,6 @@
 int main()
 {
 
-  combinari();
+    backCombinari(1);
     return 0;
 }
