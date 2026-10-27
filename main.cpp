@@ -1,12 +1,15 @@
 
-#include "combinari_7.h"
-
+#include "combinari_8.h"
+#include "functii_utile.h"
 
 
 
 int main()
 {
 
-    backCombinari(1);
+   //int v[7]={0,1,2,3,4,5,6};
+
+   combinari();
+
     return 0;
 }

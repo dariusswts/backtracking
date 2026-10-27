@@ -1,3 +1,4 @@
+
 #ifndef COMBINARI_8_H_INCLUDED
 #define COMBINARI_8_H_INCLUDED
 
@@ -14,6 +15,8 @@ bool validCombinari(int k)
     }
     return true;
 }
+
+
 
 void afisareCombinari()
 {
@@ -40,8 +43,11 @@ void backCombinari(int k)
 
 void combinari()
 {
-    cin>>n>>p;
-    backCombinari(1);
+ n=3;
+   for( p=1;p<=n;p++){
+        backCombinari(1);
+   }
+
 }
 
 

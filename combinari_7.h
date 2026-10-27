@@ -1,50 +1,52 @@
 #ifndef COMBINARI_7_H_INCLUDED
 #define COMBINARI_7_H_INCLUDED
 #include <iostream>
-using namespace std;
 #include <iostream>
+#include "functii_utile.h"
 using namespace std;
 
-int n, x[20];
-int p;
+int n=6, x[20];
+int p=3, S=10;
 
-bool validCombinari(int k)
-{
-    if(k>1 && x[k]<=x[k-1]){
-        return false;
-    }
+
+
+
+
+bool valid7(int k){
+
+      if(k>1 && x[k]<=x[k-1]){
+          return false;
+      }
     return true;
 }
 
-void afisareCombinari()
-{
+
+void afisare7(){
     for(int i=1;i<=p;i++){
         cout<<x[i]<<" ";
     }
     cout<<endl;
 }
 
-void backCombinari(int k)
-{
+void backCombinari7(int k){
     for(int v=1;v<=n;v++){
         x[k]=v;
-        if(validCombinari(k)){
-            if(k==p){
-                afisareCombinari();
-            }
-            else{
-                backCombinari(k+1);
-            }
-        }
+          if(valid7(k)){
+              if(k==p&&sumaEgala(x,p)==S){
+                  afisare7();
+              }else{
+                  backCombinari7(k+1);
+              }
+          }
+
     }
 }
 
-void combinari()
-{
-    cin>>n>>p;
-    backCombinari(1);
-}
 
+void combinari7(){
+
+    backCombinari7(1);
+}
 
 
 #endif // COMBINARI_7_H_INCLUDED
