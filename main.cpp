@@ -1,12 +1,13 @@
 
-#include "tema25.h"
+#include "tema26.h"
 #include "functii_utile.h"
 
 
 
 int main()
 {
-combinari();
+   solutie();
+
 
 
     return 0;
