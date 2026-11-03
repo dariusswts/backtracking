@@ -1,17 +1,13 @@
 
-#include "combinari_8.h"
+#include "tema25.h"
 #include "functii_utile.h"
 
 
 
 int main()
 {
+combinari();
 
-   //int v[7]={0,1,2,3,4,5,6};
-   //combinari();
-
-   afisareCombinari();
-   afisareMatirici();
 
     return 0;
 }

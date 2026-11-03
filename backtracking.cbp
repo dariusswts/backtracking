@@ -41,6 +41,7 @@
 		<Unit filename="combinari_6.h" />
 		<Unit filename="combinari_7.h" />
 		<Unit filename="combinari_8.h" />
+		<Unit filename="functii_utile.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="permutari.h" />
 		<Unit filename="permutari_1.h" />
@@ -51,6 +52,32 @@
 		<Unit filename="permutari_6.h" />
 		<Unit filename="permutari_7.h" />
 		<Unit filename="permutari_8.h" />
+		<Unit filename="tema1.h" />
+		<Unit filename="tema10.h" />
+		<Unit filename="tema11.h" />
+		<Unit filename="tema12.h" />
+		<Unit filename="tema13.h" />
+		<Unit filename="tema14.h" />
+		<Unit filename="tema15.h" />
+		<Unit filename="tema16.h" />
+		<Unit filename="tema17.h" />
+		<Unit filename="tema18.h" />
+		<Unit filename="tema19.h" />
+		<Unit filename="tema2.h" />
+		<Unit filename="tema20.h" />
+		<Unit filename="tema21.h" />
+		<Unit filename="tema22.h" />
+		<Unit filename="tema23.h" />
+		<Unit filename="tema24.h" />
+		<Unit filename="tema25.h" />
+		<Unit filename="tema26.h" />
+		<Unit filename="tema27.h" />
+		<Unit filename="tema4.h" />
+		<Unit filename="tema5.h" />
+		<Unit filename="tema6.h" />
+		<Unit filename="tema7.h" />
+		<Unit filename="tema8.h" />
+		<Unit filename="tema9.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

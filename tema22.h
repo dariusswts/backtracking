@@ -1,0 +1,6 @@
+#ifndef TEMA22_H_INCLUDED
+#define TEMA22_H_INCLUDED
+
+
+
+#endif // TEMA22_H_INCLUDED
